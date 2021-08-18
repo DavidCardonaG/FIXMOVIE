@@ -1,11 +1,8 @@
 form.addEventListener('submit',function LocalStorage(){
            
-    //captura de datos y almacenamiento en variables
     let user = document.querySelector('#user').value;
     let contraseña = document.querySelector('#pass').value;
 
-
-    //validación de campos vacíos
     if(user=="" || contraseña==""){
          alert('Ingresar todos los campos');
          return true;

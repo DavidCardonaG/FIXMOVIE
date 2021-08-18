@@ -101,9 +101,6 @@ items.addEventListener('click', e => {
             }
             localStorage.setItem("pelicula",JSON.stringify(objeto));
             getPelicula();
-            carrito.push(objeto);
-            localStorage.setItem('Carrito',JSON.stringify(carrito));
-            listarCarrito();
         }   
     })
     e.stopPropagation();
